@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+
+		<title>AzaGroup – команда разработчиков</title>
+		<link>http://azagroup.ru/</link>
+
+		<description>Latest news from AzaGroup – команда разработчиков</description>
+
+		<lastBuildDate>Sat, 22 Oct 2016 15:24:41 +0400</lastBuildDate>
+		<pubDate>Sat, 22 Oct 2016 15:24:41 +0400</pubDate>
+
+		<language>ru</language>
+
+
+		<ttl>360</ttl>
+
+
+		<item>
+			<title>Java и Unicode: как соотносятся графема, кодпоинт и чар?</title>
+			<link>http://azagroup.ru/java-unicode-codepoint-fun</link>
+
+			<author>Амаль Сэмелли</author>
+			<dc:creator>Амаль Сэмелли</dc:creator>
+
+			<category>Backend</category>
+
+			<category>JVM</category>
+			<category>Reedy</category>
+
+			<pubDate>Sat, 22 Oct 2016 00:00:00 +0400</pubDate>
+			<guid>http://azagroup.ru/java-unicode-codepoint-fun</guid>
+
+			<description>
+				&lt;p&gt;Собственный поисковый матчер для &lt;a href=&quot;http://reedy.azagroup.ru/&quot;
+				target=&quot;_blank&quot; title=&quot;Приложение для скоростного чтения&quot;&gt;Reedy&lt;/a&gt;
+				уже вполне готов и отлично работает –
+				всё ускорилось на порядок, по сравнению с “наивной” реализацией на регулярках.&lt;/p&gt;
+				&lt;p&gt;Попутно пришлось, наконец, серьезнее разобраться с Юникодом, чтобы поиск
+				хорошо работал с любыми языками и символами.&lt;/p&gt;
+				&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;/pic/java-unicode-codepoint-fun/java-unicode-search-test.png&quot;
+				width=&quot;656&quot; height=&quot;274&quot; alt=&quot;Unit-tesing Java Unicode
+				Search&quot;&gt;&lt;/p&gt;
+
+				&lt;a href=&quot;http://azagroup.ru/java-unicode-codepoint-fun&quot;&gt;Читать далее
+				»&lt;/a&gt;
+			</description>
+		</item>
+
+
+		<item>
+			<title>Android: Блокировка текущей ориентации экрана</title>
+			<link>http://azagroup.ru/android-detect-and-lock-screen-orientation</link>
+
+			<author>Олег Черр</author>
+			<dc:creator>Олег Черр</dc:creator>
+
+			<category>Mobile</category>
+
+			<category>Android</category>
+
+			<pubDate>Sun, 04 Oct 2015 00:00:00 +0400</pubDate>
+			<guid>http://azagroup.ru/android-detect-and-lock-screen-orientation</guid>
+
+			<description>
+				&lt;p&gt;Одной из&amp;nbsp;важных фич мобильных читалок книг является возможность
+				быстрой
+				блокировки текущей ориентации экрана. Вроде нет ничего сложного. Однако и
+				тут есть свои подводные камни. При разработке
+				&lt;a href=&quot;http://reedy.azagroup.ru/android/&quot; title=&quot;Reedy.
+				Intelligent reader&quot;&gt;Reedy&lt;/a&gt; мы&amp;nbsp;в&amp;nbsp;этом убедились.&lt;/p&gt;
+				&lt;p&gt;Итак, что нужно для того, чтобы заблокировать текущую ориентацию:&lt;br&gt;1.
+				Определить&amp;nbsp;её (с&amp;nbsp;этим как раз часто возникает путаница);&lt;br&gt;2.
+				Зафиксировать с
+				помощью метода &lt;q&gt;setRequestedOrientation()&lt;/q&gt;.&lt;/p&gt;
+				&lt;p&gt;Разберём по&amp;nbsp;порядку.&lt;/p&gt;
+				&lt;h3&gt;1. Определяем текущую ориентацию экрана&lt;/h3&gt;
+				&lt;p&gt;В&amp;nbsp;общем случае всё просто:&lt;/p&gt;
+				&lt;pre&gt;&lt;code class=&quot;language-kotlin&quot;&gt;val orientation =
+				getResources().getConfiguration().orientation&lt;/code&gt;&lt;/pre&gt;
+				&lt;p&gt;Однако данный способ подойдёт только для каких-то не
+				слишком важных участков приложения. Например, когда выполнение кода связано с
+				подгружаемыми ресурсами, которые разные для портретного и&amp;nbsp;ландшафтного
+				режимов.
+				Хотя и&amp;nbsp;в&amp;nbsp;этом случае я&amp;nbsp;бы не&amp;nbsp;рискнул полностью
+				полагаться на&amp;nbsp;этот способ, так
+				как, &lt;a href=&quot;http://stackoverflow.com/a/6236110/4899346&quot; rel=&quot;nofollow&quot;
+				target=&quot;_blank&quot;&gt;по&amp;nbsp;заверению товарища
+				из&amp;nbsp;Apphance&lt;/a&gt;, на&amp;nbsp;некоторых устройствах это поле иногда
+				работает неверно, и
+				порой даже возвращает &lt;q&gt;ORIENTATION_SQUARE&lt;/q&gt; на&amp;nbsp;заведомо
+				неквадратных девайсах.
+				Поэтому он&amp;nbsp;рекомендует (а&amp;nbsp;я&amp;nbsp;полностью поддерживаю)
+				определять ориентацию, явно
+				проверяя соотношение ширины и&amp;nbsp;высоты дисплея.&lt;/p&gt;
+
+				&lt;a href=&quot;http://azagroup.ru/android-detect-and-lock-screen-orientation&quot;&gt;Читать
+				далее »&lt;/a&gt;
+			</description>
+		</item>
+
+
+		<item>
+			<title>OnScrollChangedListener в Android 2.x</title>
+			<link>http://azagroup.ru/android-2-viewtreeobserver-onscrollchangedlistener-not-called
+			</link>
+
+			<author>Олег Черр</author>
+			<dc:creator>Олег Черр</dc:creator>
+
+			<category>Mobile</category>
+
+			<category>Android</category>
+
+			<pubDate>Fri, 18 Sep 2015 00:00:00 +0400</pubDate>
+			<guid>http://azagroup.ru/android-2-viewtreeobserver-onscrollchangedlistener-not-called
+			</guid>
+
+			<description>
+				&lt;p&gt;Заметил особенность в отлове события OnScrollChanged на старых девайсах с
+				Android 2.x (проблема также может относиться к 3.x; нет возможности проверить).
+				Суть заключается в том, что scroll-слушатель не работает, если добавлять его
+				до того, как layout впервые будет пересчитан. Например, если делать это в
+				&lt;q&gt;onCreate&lt;/q&gt;:&lt;/p&gt;
+				&lt;pre&gt;&lt;code class=&quot;language-kotlin&quot;&gt;public class MainActivity :
+				AppCompatActivity()
+				{
+				override fun onCreate(savedInstanceState: Bundle?) {
+				super.onCreate(savedInstanceState)
+				setContentView(R.layout.activity_main)
+
+				println(myView.getViewTreeObserver().isAlive()) // true
+
+				myView.getViewTreeObserver().addOnScrollChangedListener {
+				// will never fire
+				}
+				}
+				}&lt;/code&gt;&lt;/pre&gt;
+				&lt;p&gt;То же самое относится к методам &lt;q&gt;onStart&lt;/q&gt;, &lt;q&gt;onResume&lt;/q&gt;,
+				&lt;q&gt;onPostResume&lt;/q&gt;,
+				&lt;q&gt;onAttachedToWindow&lt;/q&gt;.&lt;/p&gt;
+				&lt;p&gt;Таким образом, если вы поддерживаете API&amp;lt;15 (ICS), то не добавляйте
+				OnScrollChangedListener в указанных методах. Причину такого поведения назвать
+				затрудняюсь. В документации об условиях добавления scroll-слушателя ничего не
+				сказано. Единственное – Observer должен быть Alive, что выполняется, как видно
+				из примера выше.&lt;/p&gt;
+
+				&lt;a href=&quot;http://azagroup.ru/android-2-viewtreeobserver-onscrollchangedlistener-not-called&quot;&gt;Читать
+				далее »&lt;/a&gt;
+			</description>
+		</item>
+
+
+		<item>
+			<title>Автодополнение и поиск в Intellij IDEA – лайфхак</title>
+			<link>http://azagroup.ru/intellij-idea-abbreviated-smart-autocompletion</link>
+
+			<author>Олег Черр</author>
+			<dc:creator>Олег Черр</dc:creator>
+
+			<category>Common</category>
+
+			<category>Intellij IDEA</category>
+			<category>Android Studio</category>
+
+			<pubDate>Wed, 26 Aug 2015 00:00:00 +0400</pubDate>
+			<guid>http://azagroup.ru/intellij-idea-abbreviated-smart-autocompletion</guid>
+
+			<description>
+				&lt;p&gt;У&amp;nbsp;Intellij IDEA (а, соответственно, и&amp;nbsp;у&amp;nbsp;Android
+				Studio) чертовски удобные
+				автодополнение и&amp;nbsp;разного рода быстрый поиск. Они позволяют не&amp;nbsp;вводить
+				имя
+				искомого файла целиком или частично, а&amp;nbsp;указывать в&amp;nbsp;качестве поиска
+				аббревиатуру,
+				составленную из&amp;nbsp;начальных букв составного слова в&amp;nbsp;формате
+				CamelCase/snake_case.
+				То&amp;nbsp;есть вместо &lt;q&gt;MainActivity&lt;/q&gt;, можно написать&amp;nbsp;&lt;q&gt;ma&lt;/q&gt;,
+				а&amp;nbsp;вместо &lt;q&gt;fragment_reader&lt;/q&gt;&amp;nbsp;&amp;mdash;
+				просто&amp;nbsp;&lt;q&gt;fr&lt;/q&gt;:&lt;/p&gt;
+				&lt;p&gt;
+				&lt;img alt=&quot;Intellij IDEA (Android Studio) – smart autocomplete&quot; height=&quot;120&quot;
+				src=&quot;/pic/intellij-idea-abbreviated-smart-autocompletion/intellij-idea-autocomplete.png&quot;
+				width=&quot;399&quot;&gt;&lt;/p&gt;
+				&lt;p&gt;
+				&lt;img alt=&quot;Intellij IDEA (Android Studio) – recent files autocomplete&quot;
+				height=&quot;149&quot; src=&quot;/pic/intellij-idea-abbreviated-smart-autocompletion/intellij-idea-recent-files-search.png&quot;
+				width=&quot;399&quot;&gt;&lt;/p&gt;
+				&lt;p&gt;
+				Более того, аббревиатура не&amp;nbsp;обязательно должна содержать все разделительные
+				буквы. Можно без проблем пропускать буквы, указывая для поиска &lt;q&gt;SpeedReaderFragment&lt;/q&gt;
+				не&amp;nbsp;&lt;q&gt;srf&lt;/q&gt;, а&amp;nbsp;лишь&amp;nbsp;&lt;q&gt;sf&lt;/q&gt;:&lt;/p&gt;
+				&lt;p&gt;
+				&lt;img alt=&quot;Intellij IDEA (Android Studio) – recent files autocomplete (event
+				smarter)&quot; height=&quot;149&quot; src=&quot;/pic/intellij-idea-abbreviated-smart-autocompletion/intellij-idea-recent-files-search-2.png&quot;
+				width=&quot;399&quot;&gt;&lt;/p&gt;
+				&lt;p&gt;
+				&lt;img alt=&quot;Intellij IDEA (Android Studio) – smart autocomplete camelcase&quot;
+				height=&quot;95&quot; src=&quot;/pic/intellij-idea-abbreviated-smart-autocompletion/intellij-idea-autocomplete-camelcase.png&quot;
+				width=&quot;399&quot;&gt;&lt;/p&gt;
+
+			</description>
+		</item>
+
+
+		<item>
+			<title>Kotlin vs. Java – Basic Syntax</title>
+			<link>http://azagroup.ru/kotlin-vs-java-basic-syntax</link>
+
+			<author>Олег Черр</author>
+			<dc:creator>Олег Черр</dc:creator>
+
+			<category>Common</category>
+
+			<category>Kotlin</category>
+			<category>Kotlin vs Java</category>
+
+			<pubDate>Fri, 17 Jul 2015 00:00:00 +0400</pubDate>
+			<guid>http://azagroup.ru/kotlin-vs-java-basic-syntax</guid>
+
+			<description>
+				&lt;p&gt;Порой очень хочется рассказать как классно что-то писать на
+				&lt;a href=&quot;http://kotlinlang.org/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Kotlin&lt;/a&gt;
+				и&amp;nbsp;какой
+				это гибкий язык, сочетающий в&amp;nbsp;себе мощь и&amp;nbsp;лаконичность
+				одновременно. В&amp;nbsp;данной
+				статье проведём сравнение ключевых моментов синтаксиса Kotlin и&amp;nbsp;Java что,
+				возможно, заставит Java-разработчиков задуматься о&amp;nbsp;переходе на
+				Kotlin. Ну, если не&amp;nbsp;о&amp;nbsp;переходе, то&amp;nbsp;хотя&amp;nbsp;бы
+				просто попробовать Котлин в&amp;nbsp;действии
+				точно захочется :) Особенно, учитывая&amp;nbsp;то, что по&amp;nbsp;кроссплатформенности
+				он
+				аналогичен Java, так как компилируется в&amp;nbsp;такой&amp;nbsp;же JVM-байткод.
+				Хотя нет, не
+				аналогичен. Kotlin ещё умеет компилироваться в&amp;nbsp;JavaScript, так что в&amp;nbsp;перспективе
+				может добраться до&amp;nbsp;веб-технологий и&amp;nbsp;составить конкуренцию таким
+				языкам как
+				CoffeeScript/TypeScript/Dart и&amp;nbsp;пр.&lt;/p&gt;
+				&lt;p&gt;Таким образом, если вы&amp;nbsp;цените своё время и&amp;nbsp;качество
+				выходного кода, а&amp;nbsp;также
+				устали от&amp;nbsp;пережитков прошлого типа &lt;abbr title=&quot;NullPointerException&quot;&gt;NPE&lt;/abbr&gt;
+				и&amp;nbsp;прочих радостей Java, то&amp;nbsp;Kotlin&amp;nbsp;&amp;mdash; это
+				то, к&amp;nbsp;чему стоит присмотреться.&lt;/p&gt;
+				&lt;p&gt;По&amp;nbsp;тегу
+				&lt;a href=&quot;/tag/Kotlin-vs-Java&quot;&gt;Kotlin-vs-Java&lt;/a&gt; в&amp;nbsp;дальнейшем
+				опубликуем
+				ещё пару заметок на&amp;nbsp;тему сравнения. А&amp;nbsp;пока рассмотрим базовые
+				отличия в
+				синтаксисе данных языков.&lt;/p&gt;
+
+				&lt;a href=&quot;http://azagroup.ru/kotlin-vs-java-basic-syntax&quot;&gt;Читать
+				далее »&lt;/a&gt;
+			</description>
+		</item>
+
+
+		<item>
+			<title>О скорости восприятия информации</title>
+			<link>http://azagroup.ru/effective-and-fast-transhuman</link>
+
+			<author>Амаль Сэмелли</author>
+			<dc:creator>Амаль Сэмелли</dc:creator>
+
+			<category>Common</category>
+
+			<category>Reedy</category>
+
+			<pubDate>Wed, 08 Jul 2015 00:00:00 +0400</pubDate>
+			<guid>http://azagroup.ru/effective-and-fast-transhuman</guid>
+
+			<description>
+				&lt;p&gt;Попутно с&amp;nbsp;разработкой читалки для скорочтения&amp;nbsp;мы,
+				разумеется, постоянно
+				используем её&amp;nbsp;на&amp;nbsp;практике при чтении статей и&amp;nbsp;книг (Reedy
+				есть для &lt;a href=&quot;https://play.google.com/store/apps/details?id=azagroup.reedy&amp;referrer=utm_source%3Dteamblog%26utm_medium%3Dpost%26utm_content%3Deffective-and-fast-transhuman&quot;
+				title=&quot;Speed reading book reader application for Android&quot; target=&quot;_blank&quot;&gt;Android&lt;/a&gt;
+				и&amp;nbsp;&lt;a href=&quot;https://chrome.google.com/webstore/detail/reedy/ihbdojmggkmjbhfflnchljfkgdhokffj&quot;
+				title=&quot;Read all you want faster with Reedy for Google Chrome!&quot; target=&quot;_blank&quot;&gt;Chrome&lt;/a&gt;).
+				В&amp;nbsp;связи с&amp;nbsp;этим есть
+				некоторые размышления об&amp;nbsp;увеличении человеческих возможностей.
+				Трансгуманизме, в
+				некотором роде.&lt;/p&gt;
+				&lt;p&gt;До&amp;nbsp;Reedy моя обычная скорость чтения плавала где-то в&amp;nbsp;диапазоне
+				250-350 слов
+				в&amp;nbsp;минуту. В&amp;nbsp;первое время использования было достаточно легко
+				поднять скорость к
+				500-600&amp;nbsp;wpm. Если пытался быстрее, приходилось прилагать заметные усилия,
+				сосредотачиваться, напрягаться. Тогда была мотивация этим заниматься, так что
+				удалось поднять стандартную скорость чтения до&amp;nbsp;800-900 слов в&amp;nbsp;минуту,
+				на&amp;nbsp;которых
+				все остановилось, так и&amp;nbsp;держась до&amp;nbsp;сих пор. Чтобы ещё увеличивать
+				нужно снова
+				напрягаться, постоянно вынуждая себя адаптироваться ко&amp;nbsp;всё большей
+				скорости.&lt;/p&gt;
+				&lt;p&gt;И&amp;nbsp;ведь точно видно, что можно буквально за&amp;nbsp;несколько
+				недель постоянной
+				практики поднять обычную скорость с&amp;nbsp;нормальным уровнем усваивания
+				где-нибудь до
+				1500&amp;nbsp;wpm. Уже сейчас разные не&amp;nbsp;слишком важные тексты получается
+				читать на
+				1200-1300 словах в&amp;nbsp;минуту, теряя некоторую часть информации. А&amp;nbsp;значит,
+				можно и
+				ещё быстрее. Есть&amp;nbsp;ли предел до&amp;nbsp;которого можно разогнать мозги при
+				чтении? Две
+				тысячи слов в&amp;nbsp;минуту? Три? Пять?&lt;/p&gt;
+
+				&lt;a href=&quot;http://azagroup.ru/effective-and-fast-transhuman&quot;&gt;Читать
+				далее »&lt;/a&gt;
+			</description>
+		</item>
+
+
+		<item>
+			<title>Упаковка набора boolean-флагов для сериализации, доработка Kryo</title>
+			<link>http://azagroup.ru/kotlin-boolean-to-bit-serialization-kryo</link>
+
+			<author>Амаль Сэмелли</author>
+			<dc:creator>Амаль Сэмелли</dc:creator>
+
+			<category>Backend</category>
+
+			<category>Kotlin</category>
+			<category>Android</category>
+			<category>Reedy</category>
+
+			<pubDate>Sun, 28 Jun 2015 00:00:00 +0400</pubDate>
+			<guid>http://azagroup.ru/kotlin-boolean-to-bit-serialization-kryo</guid>
+
+			<description>
+				&lt;p&gt;Для &lt;a href=&quot;https://play.google.com/store/apps/details?id=azagroup.reedy&amp;referrer=utm_source%3Dteamblog%26utm_medium%3Dpost%26utm_content%3Dkotlin-boolean-to-bit-serialization-kryo&quot;
+				title=&quot;Speed reading book reader application for Android&quot; target=&quot;_blank&quot;&gt;Reedy&lt;/a&gt;
+				нам
+				понадобилась эффективная сериализация, и&amp;nbsp;наиболее подходящим вариантом
+				оказался &lt;a href=&quot;https://github.com/EsotericSoftware/kryo&quot; title=&quot;Fast
+				&amp;amp; efficient java serialization&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Kryo&lt;/a&gt;,
+				кроме обычной автоматической обработки объектов, предоставляющий ещё и&amp;nbsp;удобное
+				API прямо поверх стандартных Java &lt;q&gt;InputStream&lt;/q&gt; и&amp;nbsp;&lt;q&gt;OutputStream&lt;/q&gt;.&lt;/p&gt;
+				&lt;p&gt;Kryo позволяет вручную сериализовать что угодно, оптимизируя по&amp;nbsp;производительности
+				или&amp;nbsp;же по&amp;nbsp;потреблению памяти. Int, Long и&amp;nbsp;пр. можно
+				записывать очень кратко,
+				иногда ограничиваясь всего одним байтом. ASCII строки так&amp;nbsp;же могут
+				использовать
+				один байт, вместо двух, на&amp;nbsp;каждый символ. Отличным бонусом является&amp;nbsp;то,
+				что API достаточно изолировано от&amp;nbsp;остальных классов библиотеки, и&amp;nbsp;ProGuard
+				без проблем может вырезать всё лишнее, сохраняя наше Android-приложение
+				компактным.&lt;/p&gt;
+				&lt;p&gt;Немного огорчил лишь один момент&amp;nbsp;&amp;mdash; boolean-флаги для
+				обычной записи
+				тоже требуют целый байт, а&amp;nbsp;вариантов упаковки не&amp;nbsp;предусмотрено. С&amp;nbsp;одной
+				стороны,
+				конечно, понятно&amp;nbsp;&amp;mdash; байт минимальная единица адресации памяти, а&amp;nbsp;упаковка
+				немного
+				замедляет работу. Однако когда флагов у&amp;nbsp;нас несколько и&amp;nbsp;элементов
+				с
+				флагами может быть много, это разрастание сериализованных данных начинает всё
+				больше влиять на&amp;nbsp;конечный размер данных. Так что было решено пожертвовать
+				толикой производительности и
+				несколько флагов упаковывать в&amp;nbsp;биты одного числа. В&amp;nbsp;нашем случае
+				хватает как раз
+				одного байта&amp;nbsp;&amp;mdash; флагов меньше восьми.&lt;/p&gt;
+
+				&lt;a href=&quot;http://azagroup.ru/kotlin-boolean-to-bit-serialization-kryo&quot;&gt;Читать
+				далее »&lt;/a&gt;
+			</description>
+		</item>
+
+
+		<item>
+			<title>Немного впечатлений о Kotlin (язык программирования)</title>
+			<link>http://azagroup.ru/kotlin-java-comparison-for-html-xml-parser</link>
+
+			<author>Амаль Сэмелли</author>
+			<dc:creator>Амаль Сэмелли</dc:creator>
+
+			<category>Common</category>
+
+			<category>Kotlin</category>
+			<category>Android</category>
+			<category>Reedy</category>
+
+			<pubDate>Sun, 07 Jun 2015 00:00:00 +0400</pubDate>
+			<guid>http://azagroup.ru/kotlin-java-comparison-for-html-xml-parser</guid>
+
+			<description>
+				&lt;p&gt;Мы&amp;nbsp;тут в&amp;nbsp;AzaGroup дико наслаждаемся фичами Kotlin (&lt;a
+				href=&quot;http://kotlinlang.org/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;kotlinlang.org&lt;/a&gt;),
+				вроде &lt;a href=&quot;http://kotlinlang.org/docs/reference/inline-functions.html&quot;
+				rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;inline методов&lt;/a&gt;,
+				&lt;a href=&quot;http://kotlinlang.org/docs/reference/functions.html#default-arguments&quot;
+				rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;дефолтных значений
+				аргументов&lt;/a&gt; и
+				пр. Замечательно улучшает возможности переиспользовать код, не&amp;nbsp;теряя
+				производительность.&lt;/p&gt;
+				&lt;p&gt;Запилили для нашей
+				&lt;a href=&quot;https://play.google.com/store/apps/details?id=azagroup.reedy&amp;referrer=utm_source%3Dteamblog%26utm_medium%3Dpost%26utm_content%3Dkotlin-java-comparison-for-html-xml-parser&quot;
+				rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Android-читалки Reedy&lt;/a&gt;
+				супер-управляемый html/xml парсер,
+				конвертирующий в&amp;nbsp;чары/строки только конкретные запрошенные маленькие
+				кусочки
+				(контент или атрибуты), а&amp;nbsp;со&amp;nbsp;всем остальным работающий прямо на&amp;nbsp;уровне
+				байтов.
+				Как дополнительный бонус&amp;nbsp;&amp;mdash; возможность работать даже не&amp;nbsp;зная
+				необходимой
+				кодировки, считывая/детектируя её&amp;nbsp;прямо в&amp;nbsp;процессе парсинга, а&amp;nbsp;не&amp;nbsp;отдельным
+				проходом заранее, как делают обычно. Это даёт ещё небольшой прирост
+				производительности.&lt;/p&gt;
+				&lt;p&gt;Стандартный SAX-парсер обходит в ~2.5 раза по&amp;nbsp;скорости и&amp;nbsp;ещё
+				больше по
+				потреблению памяти (абсолютный объем и&amp;nbsp;число создаваемых объектов). VTD-XML
+				парсер обыгрывает примерно на&amp;nbsp;столько&amp;nbsp;же, в&amp;nbsp;рамках своих
+				задач.&lt;/p&gt;
+				&lt;p&gt;С&amp;nbsp;ужасом представляем насколько сложнее и&amp;nbsp;больше кода
+				понадобилось&amp;nbsp;бы на&amp;nbsp;Java.
+				От&amp;nbsp;некоторых очень удобных решений вообще пришлось&amp;nbsp;бы отказаться,
+				вероятно.&lt;/p&gt;
+				&lt;p&gt;Если интересно, можете почитать про &lt;a href=&quot;/kotlin-vs-java-basic-syntax&quot;
+				title=&quot;Kotlin vs. Java Programming Languages – Basic Syntax&quot;&gt;сравнение
+				синтаксиса Kotlin vs. Java&lt;/a&gt;.&lt;/p&gt;
+				&lt;p&gt;
+				&lt;img alt=&quot;Kotlin Programming Language&quot; src=&quot;/pic/kotlin-java-comparison-for-html-xml-parser/kotlin-programming-language.jpg&quot;&gt;&lt;/p&gt;
+
+			</description>
+		</item>
+
+
+		<item>
+			<title>Создание и использование модулей в Android Studio, настройка Gradle</title>
+			<link>http://azagroup.ru/android-creating-java-library-module</link>
+
+			<author>Олег Черр</author>
+			<dc:creator>Олег Черр</dc:creator>
+
+			<category>Mobile</category>
+
+			<category>Android</category>
+
+			<pubDate>Wed, 03 Jun 2015 00:00:00 +0400</pubDate>
+			<guid>http://azagroup.ru/android-creating-java-library-module</guid>
+
+			<description>
+				&lt;p&gt;Создание модуля в&amp;nbsp;виде библиотеки очень полезно если планируется
+				переиспользовать какой-либо кусок кода в&amp;nbsp;других проектах, либо просто для
+				более
+				логичной организации структуры сложных проектов.&lt;/p&gt;
+				&lt;p&gt;Для создания модуля в
+				Android Studio выбираете &lt;b&gt;File&lt;/b&gt; &amp;gt; &lt;b&gt;New&lt;/b&gt;
+				&amp;gt; &lt;b&gt;New Module&lt;/b&gt;.
+				Далее есть 2&amp;nbsp;варианта. Если вы&amp;nbsp;планируете создать &amp;laquo;чистую&amp;raquo;
+				java-библиотеку, в
+				качестве типа указывайте &lt;b&gt;Java Library&lt;/b&gt;. Если&amp;nbsp;же вы&amp;nbsp;собираетесь
+				использовать
+				android-специфичные вещи и&amp;nbsp;вам понадобятся классы из&amp;nbsp;пакетов
+				&lt;q&gt;android.*&lt;/q&gt;, то&amp;nbsp;создавайте &lt;b&gt;Android Library&lt;/b&gt;.&lt;/p&gt;
+				&lt;p&gt;В&amp;nbsp;итоге получается подобная
+				структура (при выборе &lt;b&gt;Java Library&lt;/b&gt; структура будет немного
+				проще):&lt;/p&gt;
+				&lt;p&gt;
+				&lt;img alt=&quot;Android Library Structure&quot; height=&quot;300&quot; src=&quot;/pic/android-creating-java-library-module/android-library-structure.png&quot;
+				width=&quot;340&quot;&gt;&lt;/p&gt;
+
+				&lt;a href=&quot;http://azagroup.ru/android-creating-java-library-module&quot;&gt;Читать
+				далее »&lt;/a&gt;
+			</description>
+		</item>
+
+
+		<item>
+			<title>Организация цветовой палитры при помощи подхода Define and Use</title>
+			<link>http://azagroup.ru/define-and-use-colors-in-your-project</link>
+
+			<author>Олег Черр</author>
+			<dc:creator>Олег Черр</dc:creator>
+
+			<category>Frontend</category>
+
+			<category>Android</category>
+			<category>CSS</category>
+
+			<pubDate>Sat, 30 May 2015 00:00:00 +0400</pubDate>
+			<guid>http://azagroup.ru/define-and-use-colors-in-your-project</guid>
+
+			<description>
+				&lt;p&gt;При создании интерфейса мобильного приложения, сайта или любого другого
+				стилизованного
+				объекта обычно используется несколько основных цветов и&amp;nbsp;довольно много
+				оттенков
+				каждого основного цвета. В&amp;nbsp;сумме получаются десятки, бывает сотни
+				уникальных
+				цветов. Когда в&amp;nbsp;CSS они раскиданы по&amp;nbsp;разным местам проекта и&amp;nbsp;никак
+				не
+				упорядочены, любое изменение в&amp;nbsp;дизайне приведёт верстальщика к&amp;nbsp;огромному
+				количеству кропотливого труда.&lt;/p&gt;
+				&lt;p&gt;При разработке приложений под Android эта проблема частично решена путём
+				хранения всех цветов в&amp;nbsp;одном файле &lt;q&gt;colors.xml&lt;/q&gt;. Но&amp;nbsp;и&amp;nbsp;здесь
+				по-прежнему не&amp;nbsp;хватает
+				толковой организации, потому что скидывание цветов в&amp;nbsp;одну кучу тоже не&amp;nbsp;выход,
+				так как происходит повсеместное дублирование одних и&amp;nbsp;тех&amp;nbsp;же
+				цветов, и&amp;nbsp;для
+				корректировки дизайна приложения в&amp;nbsp;будущем придётся потрудиться при поиске
+				множества
+				оттенков одного и&amp;nbsp;того&amp;nbsp;же цвета:&lt;/p&gt;
+				&lt;p&gt;
+				&lt;img alt=&quot;Reedy Android - colors.xml&quot; height=&quot;323&quot; src=&quot;/pic/define-and-use-colors-in-your-project/reedy-android-colors-xml.png&quot;
+				width=&quot;482&quot;&gt;&lt;/p&gt;
+
+				&lt;a href=&quot;http://azagroup.ru/define-and-use-colors-in-your-project&quot;&gt;Читать
+				далее »&lt;/a&gt;
+			</description>
+		</item>
+
+	</channel>
+</rss>

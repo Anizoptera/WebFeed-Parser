@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+
+>
+	<channel>
+		<title>Comments for Kotlin Blog</title>
+		<atom:link href="https://blog.jetbrains.com/kotlin/comments/feed/" rel="self"
+			type="application/rss+xml"/>
+		<link>https://blog.jetbrains.com/kotlin</link>
+		<description>Kotlin — programming language for the JVM by JetBrains</description>
+		<lastBuildDate>Mon, 08 May 2017 08:04:05 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<generator>https://wordpress.org/?v=4.4.9</generator>
+		<item>
+			<title>Comment on Use Kotlin with npm, webpack and react by Dmitry Jemerov</title>
+			<link>
+				https://blog.jetbrains.com/kotlin/2017/04/use-kotlin-with-npm-webpack-and-react/#comment-43805
+			</link>
+			<dc:creator><![CDATA[Dmitry Jemerov]]></dc:creator>
+			<pubDate>Mon, 08 May 2017 08:04:05 +0000</pubDate>
+			<guid isPermaLink="false">http://blog.jetbrains.com/kotlin/?p=4934#comment-43805</guid>
+			<description>
+				<![CDATA[You can ignore the &quot;Unindexed Maven repositories&quot; message. It does not prevent anything in the demo from working.]]></description>
+			<content:encoded><![CDATA[<p>You can ignore the &#8220;Unindexed Maven repositories&#8221; message. It does not prevent anything in the demo from working.</p>
+]]></content:encoded>
+		</item>
+		<item>
+			<title>Comment on Use Kotlin with npm, webpack and react by Ziustag</title>
+			<link>
+				https://blog.jetbrains.com/kotlin/2017/04/use-kotlin-with-npm-webpack-and-react/#comment-43804
+			</link>
+			<dc:creator><![CDATA[Ziustag]]></dc:creator>
+			<pubDate>Sun, 07 May 2017 16:05:50 +0000</pubDate>
+			<guid isPermaLink="false">http://blog.jetbrains.com/kotlin/?p=4934#comment-43804</guid>
+			<description><![CDATA[With the Thinkter demo I&#039;m having difficulties with the additional maven repositories:
+
+Unindexed remote maven repositories found. Disable...
+The following repositories used in your gradle projects were not indexed yet:
+http://dl.bintray.com/kotlin/kotlinx.html
+https://dl.bintray.com/kotlin/squash
+http://dl.bintray.com/kotlin/ktor
+
+I&#039;m on Windows 10 with Intellij 17.2. If I try to manually update the missing repos, I get a strange error that only leads to some unresolved Intellij bug:
+nexus-maven-repository-index.properties does not exist
+https://youtrack.jetbrains.com/issue/IDEA-138029
+https://youtrack.jetbrains.com/issue/IDEA-136065
+
+Am I missing something? I tried quite a few things, but I don&#039;t seem to be able to solve that issue. It&#039;s quite a shame, since the demo seems very interesting to me.]]></description>
+			<content:encoded><![CDATA[<p>With the Thinkter demo I&#8217;m having difficulties with the additional maven repositories:</p>
+<p>Unindexed remote maven repositories found. Disable&#8230;<br />
+The following repositories used in your gradle projects were not indexed yet:<br />
+<a href="http://dl.bintray.com/kotlin/kotlinx.html" rel="nofollow">http://dl.bintray.com/kotlin/kotlinx.html</a><br />
+<a href="https://dl.bintray.com/kotlin/squash" rel="nofollow">https://dl.bintray.com/kotlin/squash</a><br />
+<a href="http://dl.bintray.com/kotlin/ktor" rel="nofollow">http://dl.bintray.com/kotlin/ktor</a></p>
+<p>I&#8217;m on Windows 10 with Intellij 17.2. If I try to manually update the missing repos, I get a strange error that only leads to some unresolved Intellij bug:<br />
+nexus-maven-repository-index.properties does not exist<br />
+<a href="https://youtrack.jetbrains.com/issue/IDEA-138029" rel="nofollow">https://youtrack.jetbrains.com/issue/IDEA-138029</a><br />
+<a href="https://youtrack.jetbrains.com/issue/IDEA-136065" rel="nofollow">https://youtrack.jetbrains.com/issue/IDEA-136065</a></p>
+<p>Am I missing something? I tried quite a few things, but I don&#8217;t seem to be able to solve that issue. It&#8217;s quite a shame, since the demo seems very interesting to me.</p>
+]]></content:encoded>
+		</item>
+		<item>
+			<title>Comment on Using External Annotations by Calling java code that doesn&#039;t
+				accept null from kotlin &#124; ASK Dev Archives
+			</title>
+			<link>https://blog.jetbrains.com/kotlin/using-external-annotations/#comment-43803</link>
+			<dc:creator>
+				<![CDATA[Calling java code that doesn&#039;t accept null from kotlin &#124; ASK Dev Archives]]></dc:creator>
+			<pubDate>Sun, 07 May 2017 04:08:29 +0000</pubDate>
+			<guid isPermaLink="false">http://blog.jetbrains.com/kotlin/?page_id=671#comment-43803
+			</guid>
+			<description>
+				<![CDATA[[&#8230;] read about external annotations, however there is no &#8220;Specify Custom Kotlin Signature&#8221; and if I annotate [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] read about external annotations, however there is no &#8220;Specify Custom Kotlin Signature&#8221; and if I annotate [&#8230;]</p>
+]]></content:encoded>
+		</item>
+		<item>
+			<title>Comment on Kotlin/Native Tech Preview: Kotlin without a VM by 不使用虚拟机的 Kotlin
+				&#124; 神刀安全网
+			</title>
+			<link>
+				https://blog.jetbrains.com/kotlin/2017/04/kotlinnative-tech-preview-kotlin-without-a-vm/#comment-43792
+			</link>
+			<dc:creator><![CDATA[不使用虚拟机的 Kotlin &#124; 神刀安全网]]></dc:creator>
+			<pubDate>Tue, 02 May 2017 00:02:29 +0000</pubDate>
+			<guid isPermaLink="false">http://blog.jetbrains.com/kotlin/?p=4862#comment-43792</guid>
+			<description>
+				<![CDATA[[&#8230;] 本文译自 Kotlin/Native Tech Preview: Kotlin without a VM  [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] 本文译自 Kotlin/Native Tech Preview: Kotlin without a VM  [&#8230;]</p>
+]]></content:encoded>
+		</item>
+		<item>
+			<title>Comment on Kotlin/Native Tech Preview: Kotlin without a VM by Sébastien Deleuze
+			</title>
+			<link>
+				https://blog.jetbrains.com/kotlin/2017/04/kotlinnative-tech-preview-kotlin-without-a-vm/#comment-43789
+			</link>
+			<dc:creator><![CDATA[Sébastien Deleuze]]></dc:creator>
+			<pubDate>Mon, 01 May 2017 09:12:06 +0000</pubDate>
+			<guid isPermaLink="false">http://blog.jetbrains.com/kotlin/?p=4862#comment-43789</guid>
+			<description>
+				<![CDATA[See also https://github.com/mbasso/asm-dom as a concrete example of such WASM + DOM interop example (will be updated to pure WASM without JS when supported)]]></description>
+			<content:encoded><![CDATA[<p>See also <a href="https://github.com/mbasso/asm-dom" rel="nofollow">https://github.com/mbasso/asm-dom</a> as a concrete example of such WASM + DOM interop example (will be updated to pure WASM without JS when supported)</p>
+]]></content:encoded>
+		</item>
+		<item>
+			<title>Comment on Kotlin/Native Tech Preview: Kotlin without a VM by Amir Abiri</title>
+			<link>
+				https://blog.jetbrains.com/kotlin/2017/04/kotlinnative-tech-preview-kotlin-without-a-vm/#comment-43786
+			</link>
+			<dc:creator><![CDATA[Amir Abiri]]></dc:creator>
+			<pubDate>Sun, 30 Apr 2017 10:37:07 +0000</pubDate>
+			<guid isPermaLink="false">http://blog.jetbrains.com/kotlin/?p=4862#comment-43786</guid>
+			<description>
+				<![CDATA[What I love about this is the potential for standalone command-line tools. This is great for devops, as distribution of script-based or VM-based tools is difficult. Having a single binary that anyone can download (or can auto-update itself) is a huge advantage. Until now the only viable option in this area was GO.]]></description>
+			<content:encoded><![CDATA[<p>What I love about this is the potential for standalone command-line tools. This is great for devops, as distribution of script-based or VM-based tools is difficult. Having a single binary that anyone can download (or can auto-update itself) is a huge advantage. Until now the only viable option in this area was GO.</p>
+]]></content:encoded>
+		</item>
+		<item>
+			<title>Comment on Kotlin/Native Tech Preview: Kotlin without a VM by Fei</title>
+			<link>
+				https://blog.jetbrains.com/kotlin/2017/04/kotlinnative-tech-preview-kotlin-without-a-vm/#comment-43777
+			</link>
+			<dc:creator><![CDATA[Fei]]></dc:creator>
+			<pubDate>Sat, 29 Apr 2017 05:25:15 +0000</pubDate>
+			<guid isPermaLink="false">http://blog.jetbrains.com/kotlin/?p=4862#comment-43777</guid>
+			<description>
+				<![CDATA[Currently I&#039;m using Xamarin to do cross platform app development. One thing I don&#039;t like is its slow startup time. I wish Kotlin/Native can keep this as one of its performance goal.]]></description>
+			<content:encoded><![CDATA[<p>Currently I&#8217;m using Xamarin to do cross platform app development. One thing I don&#8217;t like is its slow startup time. I wish Kotlin/Native can keep this as one of its performance goal.</p>
+]]></content:encoded>
+		</item>
+		<item>
+			<title>Comment on Kotlin 1.1.2 is out by Dmitry Jemerov</title>
+			<link>https://blog.jetbrains.com/kotlin/2017/04/kotlin-1-1-2-is-out/#comment-43774
+			</link>
+			<dc:creator><![CDATA[Dmitry Jemerov]]></dc:creator>
+			<pubDate>Fri, 28 Apr 2017 08:14:31 +0000</pubDate>
+			<guid isPermaLink="false">http://blog.jetbrains.com/kotlin/?p=4945#comment-43774</guid>
+			<description>
+				<![CDATA[If downloading from the IDE doesn&#039;t work, you can use your Web browser to download the plugin from https://plugins.jetbrains.com/plugin/6954-kotlin and then use Settings &#124; Plugins &#124; Install from disk to install it.]]></description>
+			<content:encoded><![CDATA[<p>If downloading from the IDE doesn&#8217;t work, you can use your Web browser to download the plugin from <a href="https://plugins.jetbrains.com/plugin/6954-kotlin" rel="nofollow">https://plugins.jetbrains.com/plugin/6954-kotlin</a> and then use Settings | Plugins | Install from disk to install it.</p>
+]]></content:encoded>
+		</item>
+		<item>
+			<title>Comment on Kotlin 1.1.2 is out by Jerry Destremps</title>
+			<link>https://blog.jetbrains.com/kotlin/2017/04/kotlin-1-1-2-is-out/#comment-43772
+			</link>
+			<dc:creator><![CDATA[Jerry Destremps]]></dc:creator>
+			<pubDate>Fri, 28 Apr 2017 00:57:09 +0000</pubDate>
+			<guid isPermaLink="false">http://blog.jetbrains.com/kotlin/?p=4945#comment-43772</guid>
+			<description><![CDATA[Can&#039;t update Android Studio.  All my co-workers are getting the same error for the past couple of days:
+
+2017-04-27 17:47:40,940 [112178768]   WARN - Settings.impl.PluginDownloader - Cannot download &#039;http://plugins.jetbrains.com/pluginManager/?action=download&#038;id=org.jetbrains.kotlin&#038;build=AI-162.2228.14&#038;uuid=fea061f2-e20e-47da-a230-b1374ea9f287&#039;: Read timed out
+, response: 200 OK
+java.io.IOException: Cannot download &#039;http://plugins.jetbrains.com/pluginManager/?action=download&#038;id=org.jetbrains.kotlin&#038;build=AI-162.2228.14&#038;uuid=fea061f2-e20e-47da-a230-b1374ea9f287&#039;: Read timed out
+, response: 200 OK
+    at com.intellij.util.io.HttpRequests$RequestImpl.saveToFile(HttpRequests.java:345)
+    at com.intellij.openapi.updateSettings.impl.PluginDownloader$1.process(PluginDownloader.java:242)
+    at com.intellij.openapi.updateSettings.impl.PluginDownloader$1.process(PluginDownloader.java:239)
+    at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:389)
+    at com.intellij.util.io.HttpRequests.process(HttpRequests.java:383)
+    at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:56)
+    at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:244)
+    at com.intellij.openapi.updateSettings.impl.PluginDownloader.downloadPlugin(PluginDownloader.java:239)
+    at com.intellij.openapi.updateSettings.impl.PluginDownloader.prepareToInstall(PluginDownloader.java:142)
+    at org.jetbrains.kotlin.idea.KotlinPluginUpdater$installPluginUpdate$2.run(KotlinPluginUpdater.kt:245)
+    at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:635)
+    at com.intellij.openapi.progress.impl.CoreProgressManager$3.run(CoreProgressManager.java:170)
+    at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:494)
+    at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:443)
+    at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+    at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:155)
+    at com.intellij.openapi.progress.impl.ProgressManagerImpl$1.run(ProgressManagerImpl.java:128)
+    at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:307)
+    at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+    at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+    at java.net.SocketInputStream.socketRead0(Native Method)
+    at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+    at java.net.SocketInputStream.read(SocketInputStream.java:170)
+    at java.net.SocketInputStream.read(SocketInputStream.java:141)
+    at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+    at sun.security.ssl.InputRecord.readV3Record(InputRecord.java:593)
+    at sun.security.ssl.InputRecord.read(InputRecord.java:532)
+    at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+    at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+    at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+    at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+    at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+    at sun.net.www.MeteredStream.read(MeteredStream.java:134)
+    at java.io.FilterInputStream.read(FilterInputStream.java:133)
+    at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3336)
+    at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3329)
+    at com.intellij.util.net.NetUtils.copyStreamContent(NetUtils.java:191)
+    at com.intellij.util.io.HttpRequests$RequestImpl.saveToFile(HttpRequests.java:341)
+    ... 22 more]]></description>
+			<content:encoded><![CDATA[<p>Can&#8217;t update Android Studio.  All my co-workers are getting the same error for the past couple of days:</p>
+<p>2017-04-27 17:47:40,940 [112178768]   WARN &#8211; Settings.impl.PluginDownloader &#8211; Cannot download &#8216;http://plugins.jetbrains.com/pluginManager/?action=download&amp;id=org.jetbrains.kotlin&amp;build=AI-162.2228.14&amp;uuid=fea061f2-e20e-47da-a230-b1374ea9f287&#8217;: Read timed out<br />
+, response: 200 OK<br />
+java.io.IOException: Cannot download &#8216;http://plugins.jetbrains.com/pluginManager/?action=download&amp;id=org.jetbrains.kotlin&amp;build=AI-162.2228.14&amp;uuid=fea061f2-e20e-47da-a230-b1374ea9f287&#8217;: Read timed out<br />
+, response: 200 OK<br />
+    at com.intellij.util.io.HttpRequests$RequestImpl.saveToFile(HttpRequests.java:345)<br />
+    at com.intellij.openapi.updateSettings.impl.PluginDownloader$1.process(PluginDownloader.java:242)<br />
+    at com.intellij.openapi.updateSettings.impl.PluginDownloader$1.process(PluginDownloader.java:239)<br />
+    at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:389)<br />
+    at com.intellij.util.io.HttpRequests.process(HttpRequests.java:383)<br />
+    at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:56)<br />
+    at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:244)<br />
+    at com.intellij.openapi.updateSettings.impl.PluginDownloader.downloadPlugin(PluginDownloader.java:239)<br />
+    at com.intellij.openapi.updateSettings.impl.PluginDownloader.prepareToInstall(PluginDownloader.java:142)<br />
+    at org.jetbrains.kotlin.idea.KotlinPluginUpdater$installPluginUpdate$2.run(KotlinPluginUpdater.kt:245)<br />
+    at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:635)<br />
+    at com.intellij.openapi.progress.impl.CoreProgressManager$3.run(CoreProgressManager.java:170)<br />
+    at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:494)<br />
+    at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:443)<br />
+    at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)<br />
+    at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:155)<br />
+    at com.intellij.openapi.progress.impl.ProgressManagerImpl$1.run(ProgressManagerImpl.java:128)<br />
+    at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:307)<br />
+    at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)<br />
+    at java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+    at java.lang.Thread.run(Thread.java:745)<br />
+Caused by: java.net.SocketTimeoutException: Read timed out<br />
+    at java.net.SocketInputStream.socketRead0(Native Method)<br />
+    at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)<br />
+    at java.net.SocketInputStream.read(SocketInputStream.java:170)<br />
+    at java.net.SocketInputStream.read(SocketInputStream.java:141)<br />
+    at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)<br />
+    at sun.security.ssl.InputRecord.readV3Record(InputRecord.java:593)<br />
+    at sun.security.ssl.InputRecord.read(InputRecord.java:532)<br />
+    at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)<br />
+    at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)<br />
+    at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)<br />
+    at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)<br />
+    at java.io.BufferedInputStream.read(BufferedInputStream.java:345)<br />
+    at sun.net.www.MeteredStream.read(MeteredStream.java:134)<br />
+    at java.io.FilterInputStream.read(FilterInputStream.java:133)<br />
+    at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3336)<br />
+    at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3329)<br />
+    at com.intellij.util.net.NetUtils.copyStreamContent(NetUtils.java:191)<br />
+    at com.intellij.util.io.HttpRequests$RequestImpl.saveToFile(HttpRequests.java:341)<br />
+    &#8230; 22 more</p>
+]]></content:encoded>
+		</item>
+		<item>
+			<title>Comment on Kotlin 1.1.2 is out by SnakeEys</title>
+			<link>https://blog.jetbrains.com/kotlin/2017/04/kotlin-1-1-2-is-out/#comment-43724
+			</link>
+			<dc:creator><![CDATA[SnakeEys]]></dc:creator>
+			<pubDate>Thu, 27 Apr 2017 02:22:05 +0000</pubDate>
+			<guid isPermaLink="false">http://blog.jetbrains.com/kotlin/?p=4945#comment-43724</guid>
+			<description><![CDATA[Chinese translation
+https://www.kotliner.cn/2017/04/25/Kotlin%201.1.2%20is%20out/]]></description>
+			<content:encoded><![CDATA[<p>Chinese translation<br />
+<a href="https://www.kotliner.cn/2017/04/25/Kotlin%201.1.2%20is%20out/" rel="nofollow">https://www.kotliner.cn/2017/04/25/Kotlin%201.1.2%20is%20out/</a></p>
+]]></content:encoded>
+		</item>
+	</channel>
+</rss>
+
+	<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+	Page Caching using disk: enhanced
+	Content Delivery Network via Amazon Web Services: CloudFront: d3nmt5vlzunoa1.cloudfront.net
+
+	 Served from: blog.jetbrains.com @ 2017-05-11 11:04:05 by W3 Total Cache -->

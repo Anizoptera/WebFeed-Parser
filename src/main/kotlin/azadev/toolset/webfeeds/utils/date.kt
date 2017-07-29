@@ -17,7 +17,7 @@ https://ru.wikipedia.org/wiki/ISO_8601
 /**
  * Tries to parse the date in any known format.
  */
-fun String.parseDate(): Date {
+internal fun String.parseDate(): Date {
 	return try { parseRfc3339Date() }
 	catch(e: Throwable) { parseRfc822Date() }
 }
@@ -39,7 +39,7 @@ private val REX_DATE_RFC822 = (
 		"(Z|([+-])(\\d{2}):(\\d{2}))"       // 8: tz, 9: sign, 10: hrs, 11: mins
 ).toRegex()
 
-fun String.parseRfc3339Date(): Date {
+internal fun String.parseRfc3339Date(): Date {
 	val m = REX_DATE_RFC822.matchEntire(this)
 			?: throw IllegalArgumentException("Malformed date: $this")
 
@@ -72,7 +72,7 @@ fun String.parseRfc3339Date(): Date {
 
 private val DATE_FORMAT_RFC822 = SimpleDateFormat("EEE, dd MMM yy HH:mm:ss Z", Locale.US)
 
-fun String.parseRfc822Date(): Date {
+internal fun String.parseRfc822Date(): Date {
 	try { return DATE_FORMAT_RFC822.parse(this) }
 	catch(e: Throwable) {}
 

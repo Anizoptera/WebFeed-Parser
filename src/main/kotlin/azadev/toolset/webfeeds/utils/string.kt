@@ -1,13 +1,13 @@
 package azadev.toolset.webfeeds.utils
 
 
-fun <T : CharSequence> T?.notNullOrEmpty(): T? = if (!isNullOrEmpty()) this else null
+internal fun <T : CharSequence> T?.notNullOrEmpty(): T? = if (!isNullOrEmpty()) this else null
 
 
-infix fun String.eqIc(other: String) = equals(other, ignoreCase = true)
+internal infix fun String.eqIc(other: String) = equals(other, ignoreCase = true)
 
 
-fun String.ellipsize(maxLen: Int, ellipsis: String = ".."): String {
+internal fun String.ellipsize(maxLen: Int, ellipsis: String = ".."): String {
 	val len = length
 
 	if (len <= maxLen)
